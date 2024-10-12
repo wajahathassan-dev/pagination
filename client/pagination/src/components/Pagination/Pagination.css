@@ -1,0 +1,35 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.page-nos {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+}
+
+.page-nos li {
+    border: 0.5px solid blue;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.page-nos li:hover {
+    background-color: rgb(132, 0, 255);
+    color: white;
+}
+
+.active {
+    background-color: rgb(132, 0, 255);
+    color: white;
+}
